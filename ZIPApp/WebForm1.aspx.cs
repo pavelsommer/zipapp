@@ -28,7 +28,7 @@ namespace ZIPApp
 				.Clear();
 
 			Response
-				.ContentType = "application/vnd.ms-excel";
+				.ContentType = "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet";
 
 			Response
 				.AppendHeader("content-disposition",
